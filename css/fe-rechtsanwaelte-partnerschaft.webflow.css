@@ -1,0 +1,3684 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #1a1b1f;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 44px;
+  line-height: 62px;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 46px;
+  font-weight: 400;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #43464d;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #32343a;
+}
+
+a:active {
+  color: #43464d;
+}
+
+ul {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+blockquote {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px 30px;
+  border-left: 5px solid #e2e2e2;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+figure {
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+
+figcaption {
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.section {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.section.arbeitsrecht {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section.cc-subscribe-form {
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #f4f4f4;
+}
+
+.section.arbeitsrecht-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 3.9em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section.arbeitsrecht-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.4em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.section.home-1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 3.9em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section.kontakt-1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section.kontakt-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 2.9em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.section.anwaelte {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section.anwalt-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 2.8em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section.aktuelles {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 20em 0px 24.4em;
+  background-color: transparent;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+
+.container.cc-subscription-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraph-tiny {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.paragraph-bigger {
+  margin-bottom: 10px;
+  opacity: 1;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.paragraph-bigger.cc-bigger-light {
+  opacity: 0.6;
+}
+
+.button {
+  padding: 12px 25px;
+  border-radius: 0px;
+  background-color: #1a1b1f;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #32343a;
+  color: #fff;
+}
+
+.button:active {
+  background-color: #43464d;
+}
+
+.button.cc-white-button {
+  padding: 16px 35px;
+  background-color: #fff;
+  color: #202020;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.button.cc-white-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.button.cc-white-button:active {
+  background-color: hsla(0, 0%, 100%, 0.9);
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.paragraph-light {
+  margin-top: 0em;
+  margin-bottom: 0px;
+  padding-top: 0.125em;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.275em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: -0.003em;
+  text-transform: none;
+}
+
+.paragraph-light.cc-subscribe-paragraph {
+  width: 40%;
+}
+
+.paragraph-light.bottom {
+  padding-top: 0em;
+}
+
+.heading-jumbo {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 4.4px;
+  text-transform: uppercase;
+}
+
+.heading-jumbo-small {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.logo-link {
+  z-index: 1;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.7;
+}
+
+.status-message {
+  padding: 9px 30px;
+  background-color: #202020;
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.navigation-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  padding: 2.3125em 3em 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.text-field {
+  margin-bottom: 18px;
+  padding: 21px 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 0px;
+  -webkit-transition: border-color 400ms ease;
+  transition: border-color 400ms ease;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.text-field:hover {
+  border-color: #e3e6eb;
+}
+
+.text-field:active {
+  border-color: #43464d;
+}
+
+.text-field:focus {
+  border-color: #43464d;
+}
+
+.text-field::-webkit-input-placeholder {
+  color: rgba(50, 52, 58, 0.4);
+}
+
+.text-field:-ms-input-placeholder {
+  color: rgba(50, 52, 58, 0.4);
+}
+
+.text-field::-ms-input-placeholder {
+  color: rgba(50, 52, 58, 0.4);
+}
+
+.text-field::placeholder {
+  color: rgba(50, 52, 58, 0.4);
+}
+
+.text-field.cc-subscribe-text-field {
+  width: 330px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.text-field.cc-subscribe-text-field:focus {
+  border-color: #32343a;
+}
+
+.text-field.cc-contact-field {
+  margin-bottom: 25px;
+}
+
+.text-field.cc-textarea {
+  height: 200px;
+  padding-top: 12px;
+}
+
+.text-field.cc-textarea.cc-contact-field {
+  width: 41.6em;
+  height: 8.125em;
+  margin: 0em auto 0px 0px;
+  padding: 0.75em 0.9em;
+  border-width: 0.0625em;
+  border-color: #ed2e38;
+  background-color: transparent;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.text-field.cc-textarea.cc-contact-field::-webkit-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-weight: 300;
+}
+
+.text-field.cc-textarea.cc-contact-field:-ms-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-weight: 300;
+}
+
+.text-field.cc-textarea.cc-contact-field::-ms-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-weight: 300;
+}
+
+.text-field.cc-textarea.cc-contact-field::placeholder {
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-weight: 300;
+}
+
+.navigation-item {
+  margin-right: 1.6em;
+  padding: 0px 0px 1.1em;
+  background-color: transparent;
+  opacity: 1;
+  -webkit-transition-property: none;
+  transition-property: none;
+  font-family: urbane, sans-serif;
+  color: rgba(29, 29, 27, 0.87);
+  font-size: 1.25em;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.1125em;
+  text-transform: uppercase;
+}
+
+.navigation-item:hover {
+  background-color: transparent;
+  opacity: 1;
+  color: #1d1d1b;
+}
+
+.navigation-item:active {
+  opacity: 0.8;
+}
+
+.navigation-item.w--current {
+  opacity: 1;
+  -webkit-transition-property: none;
+  transition-property: none;
+  color: rgba(29, 29, 27, 0.87);
+  font-weight: 500;
+}
+
+.navigation-item.w--current:hover {
+  opacity: 1;
+  color: #1d1d1b;
+}
+
+.navigation-item.w--current:active {
+  opacity: 0.7;
+  color: #32343a;
+}
+
+.logo-image {
+  display: block;
+  width: 23.125em;
+  height: 8.25em;
+}
+
+.navigation-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 44.9375em;
+  height: 1.875em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.intro-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 62.625em;
+  height: 30.625em;
+  max-height: none;
+  max-width: none;
+  min-height: 0vh;
+  min-width: 0px;
+  margin: 0em 0px 0px;
+  padding-left: 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../images/Rectangle-1.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.intro-header.anwaelte {
+  background-image: none;
+}
+
+.main-paragraph-wrap {
+  margin-top: 3.9em;
+  margin-bottom: 0px;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.25em;
+  grid-template-areas: ". .";
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.subscribe-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-block {
+  margin-top: 20px;
+}
+
+.footer {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  justify-items: start;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-areas: ". . . . ."
+    ". . . . .";
+  -ms-grid-columns: 2fr 30px 1fr 30px 1fr 30px 1.25fr 30px 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1.25fr 1fr;
+  -ms-grid-rows: auto 30px auto;
+  grid-template-rows: auto auto;
+}
+
+.footer-link {
+  margin-bottom: 15px;
+  opacity: 0.6;
+  -webkit-transition: color 200ms ease, opacity 200ms ease;
+  transition: color 200ms ease, opacity 200ms ease;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  opacity: 1;
+}
+
+.made-with-webflow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.5;
+  -webkit-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+  text-decoration: none;
+}
+
+.made-with-webflow:hover {
+  opacity: 1;
+}
+
+.made-with-webflow:active {
+  opacity: 0.8;
+}
+
+.links-section-footer {
+  margin-top: 40px;
+}
+
+.webflow-logo-tiny {
+  margin-top: -2px;
+  margin-right: 8px;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+._404-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1a1b1f;
+}
+
+._404-content-wrap {
+  margin-bottom: 20px;
+}
+
+.protected-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.protected-heading {
+  margin-bottom: 30px;
+}
+
+.protected-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.header-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: none;
+  max-width: 1440px;
+  min-height: 1691px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background-image: url('../images/FE_Homepage-2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+.hero-content-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  max-width: none;
+  margin-bottom: 0px;
+  padding-top: 4.6em;
+  padding-left: 0.765em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  width: 100%;
+  margin: auto 0px auto auto;
+}
+
+.heading-big {
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 2.25em;
+  line-height: 1.35;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.body {
+  background-color: #f5efef;
+  font-size: 1.111vw;
+  line-height: 1.5;
+}
+
+.heading-big-text {
+  width: auto;
+  margin-top: 0em;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  padding-left: 0em;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 2.25em;
+  line-height: 1.35;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.second-paragraph-wrap {
+  margin-top: 3.9em;
+  margin-bottom: 0px;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1em;
+  grid-template-areas: ". .";
+  -ms-grid-rows: auto 1em auto;
+  grid-template-rows: auto auto;
+}
+
+.heading-2 {
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  background-color: transparent;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-span-2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.85em;
+  font-weight: 400;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+
+.text-span-3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.85em;
+  font-weight: 400;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+
+.text-span-4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.85em;
+  font-weight: 400;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+
+.footer-fixed {
+  position: relative;
+  height: 11.4375em;
+  margin-top: 7.55em;
+  padding: 0px 3em;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.footer-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 2.3125em;
+  padding-left: 0em;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.footer-logo-link {
+  max-height: none;
+  min-width: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.footer-image {
+  width: 9.1875em;
+  height: 9.1875em;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 0% 50%;
+  object-position: 0% 50%;
+}
+
+.footer-content {
+  height: 100%;
+}
+
+.link-wrapper-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26.5em;
+  height: 1.5em;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.link-footer {
+  margin-right: 3em;
+  font-family: urbane, sans-serif;
+  color: rgba(29, 29, 27, 0.87);
+  font-size: 1em;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.095em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link-footer:hover {
+  color: #ed2e38;
+}
+
+.hero-content-left {
+  position: relative;
+  left: 6.325em;
+  top: -5.075em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  max-width: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0em;
+  padding-left: 0em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-arc {
+  width: 100%;
+  margin: auto 0px auto auto;
+}
+
+.image {
+  width: 24.2em;
+}
+
+.accordion-item {
+  margin-bottom: 2.65em;
+}
+
+.heading-2 {
+  color: rgba(29, 29, 27, 0.87);
+  cursor: pointer;
+}
+
+.heading-2.spacing {
+  margin-top: 0.2em;
+  margin-bottom: 0.7em;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.accordion-item-content {
+  display: block;
+  overflow: hidden;
+}
+
+.paragraph {
+  display: block;
+  background-color: transparent;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.12em;
+  font-weight: 300;
+  letter-spacing: 0.004em;
+}
+
+.spacer {
+  width: 100%;
+  height: 35vh;
+}
+
+.intro-header-arbeitsrecht {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 62.625em;
+  height: 30.625em;
+  max-height: none;
+  max-width: none;
+  min-height: 49vh;
+  min-width: 0px;
+  margin: 0em 0px 0px;
+  padding-left: 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  background-image: url('../images/FE-Arbeitsrecht.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.heading-2-home {
+  margin-top: 0.225em;
+  margin-bottom: 0.1em;
+  background-color: transparent;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.header-image-arbeitsrecht {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: none;
+  max-width: 1440px;
+  min-height: 1520px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background-image: url('../images/FE_Arbeitsrecht-2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+.main-paragraph-wrap-arbeitsrecht {
+  margin-top: 3.9em;
+  margin-bottom: 0px;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.25em;
+  grid-template-areas: ". .";
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.paragraph-arbeitsrecht {
+  margin-bottom: 0px;
+  padding-top: 0.125em;
+  padding-right: 2.325em;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: -0.003em;
+  text-transform: none;
+}
+
+.intro-header-kontakt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 62.625em;
+  height: 30.625em;
+  max-height: none;
+  max-width: none;
+  min-height: 49vh;
+  min-width: 0px;
+  margin: 0em 0px 0px;
+  padding-left: 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../images/FE-Kontakt.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.header-image-kontakt {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: none;
+  max-width: 1440px;
+  min-height: 2274px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background-image: url('../images/FE_Kontakt.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: background-color 250ms cubic-bezier(.215, .61, .355, 1), color 250ms cubic-bezier(.215, .61, .355, 1);
+  transition: background-color 250ms cubic-bezier(.215, .61, .355, 1), color 250ms cubic-bezier(.215, .61, .355, 1);
+}
+
+.main-paragraph-wrap-kontakt {
+  margin-top: 3em;
+  margin-bottom: 0px;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.25em;
+  grid-template-areas: ". .";
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.paragraph-kontakt {
+  margin-bottom: 0px;
+  padding-right: 2.325em;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.007em;
+  text-transform: none;
+}
+
+.paragraph-kontakt-2 {
+  margin-bottom: 0px;
+  padding-right: 2.325em;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.45;
+  font-weight: 300;
+  letter-spacing: 0.007em;
+  text-transform: none;
+}
+
+.kontakt-daten-wrapper {
+  padding-top: 0.125em;
+}
+
+.span-kanzlei-name {
+  font-family: urbane, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.span-mail {
+  font-size: 0.925em;
+  line-height: 1.45;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.span-tel {
+  font-size: 0.925em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.span-fax {
+  font-size: 0.925em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.paragraph-kontakt-3 {
+  margin-top: 0.8em;
+  margin-bottom: 0px;
+  padding-right: 2.325em;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.007em;
+  text-transform: none;
+}
+
+.text-span-5 {
+  font-family: urbane, sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-span-6 {
+  font-size: 0.925em;
+  line-height: 1.45;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.text-span-7 {
+  font-size: 0.925em;
+  line-height: 1.45;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.form-section {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-content-left-anwaelte {
+  position: static;
+  left: 6.325em;
+  top: -5.075em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  max-width: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0em;
+  padding-left: 0em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Patrick-Fuetterer-2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hero-content-right-anwaelte {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  max-width: none;
+  margin-bottom: 0px;
+  padding-top: 0em;
+  padding-left: 0em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Andreas-Engelmann.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header-image-anwaelte {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: none;
+  max-width: 1440px;
+  min-height: 1725px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background-image: url('../images/FE_Anwaelte.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+.main-paragraph-wrap-anwaelte {
+  margin-top: 2.8em;
+  margin-bottom: 0px;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.25em;
+  grid-template-areas: ". .";
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.paragraph-light-anwaelte {
+  position: relative;
+  top: -0.3em;
+  margin-bottom: 0px;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.065625em;
+  text-transform: none;
+}
+
+.heading-anwalt {
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  background-color: transparent;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hero-content-anwaelte-mobile {
+  position: static;
+  left: 6.325em;
+  top: -5.075em;
+  display: none;
+  width: 50%;
+  height: 100%;
+  max-width: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0em;
+  padding-left: 0em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Patrick-Fuetterer-2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.aktuelles-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45em;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 49vh;
+  min-width: 0px;
+  margin: 0em 0px 0px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+  color: #fff;
+}
+
+.heading-aktuelles {
+  margin-top: 0px;
+  margin-bottom: 0em;
+  padding-top: 0px;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 2.25em;
+  line-height: 1.375;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.link {
+  display: inline-block;
+  color: #ed2e38;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgba(237, 46, 56, 0.61);
+}
+
+.heading-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.heading-div:hover {
+  color: #ed2e38;
+}
+
+.arrow-icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-bottom: 0.3em;
+  margin-left: 0.55em;
+  padding-bottom: 0em;
+  background-image: url('../images/Arrow-Icon.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.paragraph-light-aktuelles {
+  margin-top: 1.6em;
+  margin-bottom: 0px;
+  padding-top: 0em;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.275em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: -0.003em;
+  text-transform: none;
+}
+
+.form-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-field-fe {
+  width: 41.6em;
+  height: 2.4em;
+  margin-right: auto;
+  margin-bottom: 1.2em;
+  margin-left: 0px;
+  padding: 0.75em 0.9em;
+  border-style: solid;
+  border-width: 0.0625em;
+  border-color: #ed2e38;
+  background-color: transparent;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  font-weight: 300;
+  letter-spacing: 0.007em;
+}
+
+.text-field-fe::-webkit-input-placeholder {
+  color: #ed2e38;
+}
+
+.text-field-fe:-ms-input-placeholder {
+  color: #ed2e38;
+}
+
+.text-field-fe::-ms-input-placeholder {
+  color: #ed2e38;
+}
+
+.text-field-fe::placeholder {
+  color: #ed2e38;
+}
+
+.form-block-2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5.0875em;
+  padding-left: 13.6875em;
+}
+
+.text-block {
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.success-message {
+  width: 41.6em;
+  margin-top: 2.5em;
+  padding-left: 13.6875em;
+  background-color: #f5efef;
+}
+
+.error-message {
+  width: 41.6em;
+  margin-top: 2.5em;
+  padding-left: 13.6875em;
+  background-color: #f5efef;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.text-block-2 {
+  color: #ed2e38;
+  font-size: 1.25em;
+}
+
+.recaptcha {
+  margin-top: 2.6em;
+  margin-bottom: 3.3em;
+}
+
+.submit-button {
+  width: 8.125em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ed2e38;
+  border-radius: 5px;
+  background-color: #ed2e38;
+  -webkit-transition: background-color 300ms cubic-bezier(.215, .61, .355, 1), color 300ms cubic-bezier(.215, .61, .355, 1);
+  transition: background-color 300ms cubic-bezier(.215, .61, .355, 1), color 300ms cubic-bezier(.215, .61, .355, 1);
+  font-family: urbane, sans-serif;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0.09375em;
+  text-transform: uppercase;
+}
+
+.submit-button:hover {
+  background-color: transparent;
+  color: #ed2e38;
+  letter-spacing: 0.09375em;
+}
+
+.heading-3 {
+  margin-top: 0px;
+  margin-bottom: 1.425em;
+  font-family: urbane, sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact-mobile {
+  display: none;
+}
+
+.container-mobile {
+  display: none;
+  width: 100%;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+
+.container-mobile.cc-subscription-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-arbeitsrecht-1 {
+  width: 100%;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+
+.container-arbeitsrecht-1.cc-subscription-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-arbeitsrecht-2 {
+  width: 100%;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+
+.container-arbeitsrecht-2.cc-subscription-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-anwaelte {
+  width: 100%;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+
+.container-anwaelte.cc-subscription-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.more-button {
+  display: none;
+  color: rgba(29, 29, 27, 0.87);
+  cursor: pointer;
+}
+
+.container-kontakt {
+  width: 100%;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+
+.container-kontakt.cc-subscription-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraph-light-kontakt-mobile {
+  position: relative;
+  top: auto;
+  margin-bottom: 0px;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.arbeitsrecht-head-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arrow-icon-straight {
+  position: relative;
+  left: 0.625em;
+  bottom: 0.325em;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.section-mobile {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.section-mobile.arbeitsrecht {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section-mobile.cc-subscribe-form {
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #f4f4f4;
+}
+
+.section-mobile.arbeitsrecht-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 3.9em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section-mobile.arbeitsrecht-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.4em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.section-mobile.home-1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 3.9em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section-mobile.kontakt-1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section-mobile.kontakt-2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 2.9em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.section-mobile.anwaelte {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section-mobile.anwalt-2 {
+  position: relative;
+  display: none;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 2.8em auto 0em;
+  padding: 0px 13.6875em;
+  background-color: transparent;
+}
+
+.section-mobile.aktuelles {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  margin: 4.5em auto 0em;
+  padding: 0px 20em 0px 24.4em;
+  background-color: transparent;
+}
+
+.paragraph-light-anwaelte-desktop-1 {
+  position: relative;
+  top: -0.3em;
+  margin-bottom: 0px;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.065625em;
+  text-transform: none;
+}
+
+.paragraph-light-anwaelte-desktop-2 {
+  position: relative;
+  top: -0.3em;
+  margin-bottom: 0px;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.065625em;
+  text-transform: none;
+}
+
+.paragraph-light-anwaelte-desktop-3 {
+  position: relative;
+  top: -0.3em;
+  margin-bottom: 0px;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.065625em;
+  text-transform: none;
+}
+
+.paragraph-light-anwaelte-desktop-4 {
+  position: relative;
+  top: -0.3em;
+  margin-bottom: 0px;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Work Sans', sans-serif;
+  color: #ed2e38;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.065625em;
+  text-transform: none;
+}
+
+.navigation-items-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.navigation-items-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.horizontal-line {
+  display: none;
+}
+
+.logo-image-invert {
+  position: absolute;
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .button {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .paragraph-light.cc-subscribe-paragraph {
+    width: 60%;
+  }
+
+  .heading-jumbo {
+    font-size: 56px;
+    line-height: 70px;
+  }
+
+  .logo-link {
+    margin-left: 5.8em;
+    padding-top: 0.725em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .logo-link.w--current {
+    width: auto;
+    margin-left: 5.8em;
+    padding-top: 0.725em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .navigation-items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 4.2em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background-color: #f5efef;
+  }
+
+  .navigation {
+    display: block;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .navigation-item {
+    padding: 15px 30px;
+    -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+    transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+    text-align: center;
+  }
+
+  .navigation-item:hover {
+    background-color: #f7f8f9;
+  }
+
+  .navigation-item:active {
+    background-color: #eef0f3;
+  }
+
+  .menu-button {
+    left: auto;
+    top: auto;
+    margin-right: 1.5em;
+    padding: 0px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+
+  .logo-image {
+    width: 35em;
+    height: auto;
+    margin-top: 0em;
+    margin-left: 0px;
+  }
+
+  .navigation-wrap {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .intro-header.anwaelte {
+    display: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-image: none;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .hero-text {
+    width: auto;
+  }
+
+  .heading-big {
+    font-size: 56px;
+    line-height: 70px;
+  }
+
+  .heading-big-text {
+    font-size: 56px;
+    line-height: 70px;
+  }
+
+  .footer-fixed {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .hero-arc {
+    width: auto;
+  }
+
+  .main-paragraph-wrap-anwaelte {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+  }
+
+  .hero-content-anwaelte-mobile {
+    display: block;
+    width: 40em;
+    height: 40em;
+    background-image: url('../images/Patrick-Fuetterer-2.png');
+  }
+
+  .line-1 {
+    width: 48px;
+    height: 2px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #ed2e38;
+  }
+
+  .line-2 {
+    width: 38.4px;
+    height: 2px;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #ed2e38;
+  }
+
+  .line-3 {
+    width: 48px;
+    height: 2px;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #ed2e38;
+  }
+
+  .burger-wrapper {
+    padding-top: 0em;
+  }
+
+  .container-mobile {
+    display: block;
+  }
+
+  .navigation-items-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 4.2em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background-color: #f5efef;
+  }
+
+  .navigation-items-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 4.2em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background-color: #f5efef;
+  }
+
+  .horizontal-line {
+    display: block;
+  }
+
+  .logo-image-invert {
+    position: absolute;
+    display: block;
+    width: 35em;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.arbeitsrecht {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.arbeitsrecht-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.arbeitsrecht-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.home-1 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.kontakt-1 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.kontakt-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.anwaelte {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.anwalt-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section.aktuelles {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .container.cc-subscription-form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .paragraph-bigger {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .paragraph-light.cc-subscribe-paragraph {
+    width: 80%;
+  }
+
+  .heading-jumbo {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .heading-jumbo-small {
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .logo-link {
+    padding-left: 0px;
+  }
+
+  .logo-link.w--current {
+    margin-left: 5.8em;
+  }
+
+  .navigation-items {
+    background-color: #f5efef;
+  }
+
+  .navigation {
+    padding: 0px;
+  }
+
+  .text-field.cc-subscribe-text-field {
+    width: auto;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .text-field.cc-contact-field {
+    text-align: left;
+  }
+
+  .text-field.cc-textarea {
+    text-align: left;
+  }
+
+  .main-paragraph-wrap {
+    grid-row-gap: 30px;
+    grid-template-areas: "."
+      ".";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 30px auto;
+    grid-template-rows: auto auto;
+  }
+
+  .subscribe-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .form-block {
+    width: 90%;
+    max-width: 470px;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-footer {
+    margin-bottom: 70px;
+  }
+
+  .links-section-footer {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .utility-page-wrap {
+    padding: 15px;
+  }
+
+  ._404-wrap {
+    padding: 30px;
+  }
+
+  .hero-content-right {
+    width: 80%;
+  }
+
+  .heading-big {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .heading-big-text {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .second-paragraph-wrap {
+    grid-row-gap: 30px;
+    grid-template-areas: "."
+      ".";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 30px auto;
+    grid-template-rows: auto auto;
+  }
+
+  .footer-fixed {
+    padding: 40px 20px;
+  }
+
+  .footer-image {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .hero-content-left {
+    width: 80%;
+  }
+
+  .main-paragraph-wrap-arbeitsrecht {
+    grid-row-gap: 30px;
+    grid-template-areas: "."
+      ".";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 30px auto;
+    grid-template-rows: auto auto;
+  }
+
+  .main-paragraph-wrap-kontakt {
+    grid-row-gap: 30px;
+    grid-template-areas: "."
+      ".";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 30px auto;
+    grid-template-rows: auto auto;
+  }
+
+  .hero-content-left-anwaelte {
+    width: 80%;
+  }
+
+  .hero-content-right-anwaelte {
+    width: 80%;
+  }
+
+  .main-paragraph-wrap-anwaelte {
+    grid-row-gap: 30px;
+    grid-template-areas: "."
+      ".";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 30px auto;
+    grid-template-rows: auto auto;
+  }
+
+  .hero-content-anwaelte-mobile {
+    width: 80%;
+  }
+
+  .container-mobile {
+    text-align: center;
+  }
+
+  .container-mobile.cc-subscription-form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .container-arbeitsrecht-1 {
+    text-align: center;
+  }
+
+  .container-arbeitsrecht-1.cc-subscription-form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .container-arbeitsrecht-2 {
+    text-align: center;
+  }
+
+  .container-arbeitsrecht-2.cc-subscription-form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .container-anwaelte {
+    text-align: center;
+  }
+
+  .container-anwaelte.cc-subscription-form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .container-kontakt {
+    text-align: center;
+  }
+
+  .container-kontakt.cc-subscription-form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .section-mobile {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.arbeitsrecht {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.arbeitsrecht-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.arbeitsrecht-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.home-1 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.kontakt-1 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.kontakt-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.anwaelte {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.anwalt-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-mobile.aktuelles {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .navigation-items-wrap {
+    background-color: #f5efef;
+  }
+
+  .navigation-items-top {
+    background-color: #f5efef;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  h2 {
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .section.arbeitsrecht {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+  }
+
+  .section.arbeitsrecht-2 {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+    opacity: 1;
+  }
+
+  .section.home-1 {
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+  }
+
+  .section.kontakt-1 {
+    overflow: hidden;
+    margin-top: 8.8em;
+    margin-right: 5.5em;
+    margin-left: 5.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .section.kontakt-2 {
+    margin-top: 5.9em;
+    margin-right: 5.5em;
+    margin-left: 5.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .section.anwaelte {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+  }
+
+  .section.anwalt-2 {
+    display: none;
+    margin-top: 6.4em;
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .section.aktuelles {
+    margin-top: 9em;
+    margin-right: 5.8em;
+    margin-left: 5.8em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .container.cc-subscription-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .paragraph-light {
+    position: relative;
+    top: -0.225em;
+    height: auto;
+    padding-top: 0em;
+    padding-right: 0.925em;
+    opacity: 1;
+    font-size: 3.85em;
+    text-align: left;
+    letter-spacing: 0.003em;
+  }
+
+  .paragraph-light.cc-subscribe-paragraph {
+    width: 100%;
+  }
+
+  .heading-jumbo {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .logo-link {
+    margin-left: 5.8em;
+    padding-top: 0.725em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .logo-link.w--current {
+    width: auto;
+    margin-left: 5.8em;
+    padding-top: 0.725em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .navigation-items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-top: 8em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: transparent;
+  }
+
+  .navigation {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .text-field.cc-textarea.cc-contact-field {
+    width: 20.2em;
+    height: 11.5em;
+    margin-bottom: 1.6em;
+    font-size: 3.9em;
+  }
+
+  .navigation-item {
+    padding: 0.9em 1.1em 0.9em 0em;
+    -webkit-transition-property: none;
+    transition-property: none;
+    font-size: 5em;
+    text-align: left;
+  }
+
+  .navigation-item.w--current {
+    padding: 0.9em 0em;
+    font-size: 5em;
+    text-align: left;
+  }
+
+  .menu-button {
+    position: static;
+    left: 0.5em;
+    top: auto;
+    bottom: 0em;
+    display: block;
+    width: 2em;
+    margin-top: 0px;
+    margin-right: 1em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .menu-button.w--open {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .logo-image {
+    width: 53.7em;
+    height: auto;
+    margin-top: 0em;
+    margin-left: 0px;
+  }
+
+  .navigation-wrap {
+    width: 19.9em;
+    height: 100%;
+    margin-bottom: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #ff0505;
+  }
+
+  .intro-header {
+    width: 100%;
+    height: 78em;
+    min-height: 25.625vh;
+    margin-top: 5.8em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-image: url('../images/Group-20.png');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  .main-paragraph-wrap {
+    margin-top: 7em;
+    grid-row-gap: 0px;
+  }
+
+  .form-block {
+    width: 100%;
+    max-width: none;
+  }
+
+  .header-image {
+    display: none;
+    max-width: 375px;
+    min-height: 854px;
+    background-image: url('../images/mobile_Aktuelles.png');
+  }
+
+  .hero-content-right {
+    display: none;
+  }
+
+  .heading-big {
+    display: none;
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .body {
+    overflow: visible;
+  }
+
+  .heading-big-text {
+    font-size: 4.75em;
+    line-height: 48px;
+  }
+
+  .second-paragraph-wrap {
+    margin-top: 0em;
+    grid-row-gap: 0px;
+  }
+
+  .text-block-div {
+    margin-top: 0.525em;
+  }
+
+  .footer-fixed {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .footer-flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer-logo-link {
+    height: 60px;
+  }
+
+  .hero-content-left {
+    display: none;
+    height: auto;
+  }
+
+  .hero-arc {
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image {
+    width: 36.2em;
+  }
+
+  .heading-2 {
+    font-size: 3.85em;
+    text-align: left;
+  }
+
+  .heading-2.spacing {
+    margin-top: 0.2em;
+    margin-bottom: 2.6em;
+  }
+
+  .accordion-item-content {
+    margin-top: -4.025em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .paragraph {
+    font-size: 3.8em;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  .intro-header-arbeitsrecht {
+    width: 100%;
+    height: 78em;
+    min-height: 25.625vh;
+    margin-top: 8.8em;
+    background-image: url('../images/Group-21.png');
+  }
+
+  .heading-2-home {
+    margin-top: -0.275em;
+    font-size: 2.89em;
+    line-height: 2;
+    text-align: left;
+  }
+
+  .header-image-arbeitsrecht {
+    display: none;
+    max-width: 375px;
+    min-height: 1331px;
+    background-image: url('../images/mobile_Arbeitsrecht.png');
+  }
+
+  .main-paragraph-wrap-arbeitsrecht {
+    margin-top: 6.5em;
+    line-height: 1.5;
+  }
+
+  .paragraph-arbeitsrecht {
+    padding-right: 0em;
+    font-size: 3.8em;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  .intro-header-kontakt {
+    width: 100%;
+    height: 78em;
+    min-height: 25.625vh;
+    background-image: url('../images/Group-21_1.png');
+    background-size: cover;
+  }
+
+  .header-image-kontakt {
+    display: none;
+    max-width: 375px;
+    min-height: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('../images/mobile_Kontakt.png');
+  }
+
+  .main-paragraph-wrap-kontakt {
+    overflow: hidden;
+  }
+
+  .paragraph-kontakt-2 {
+    padding-right: 0em;
+    font-size: 3.9em;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .kontakt-daten-wrapper {
+    overflow: hidden;
+    margin-top: 2.125em;
+    padding-top: 0px;
+  }
+
+  .paragraph-kontakt-3 {
+    font-size: 3.9em;
+    text-align: left;
+  }
+
+  .form-section {
+    overflow: hidden;
+  }
+
+  .header-image-anwaelte {
+    display: none;
+    max-width: 375px;
+    min-height: 1973px;
+    background-image: url('../images/mobile_Anwaelte.png');
+    -webkit-filter: none;
+    filter: none;
+  }
+
+  .paragraph-light-anwaelte {
+    font-size: 3.4em;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .heading-anwalt {
+    margin-bottom: 0.3em;
+    font-size: 3.9em;
+    text-align: left;
+    letter-spacing: 0.09em;
+  }
+
+  .anwalt-column {
+    padding-right: 2.325em;
+    padding-left: 2.325em;
+  }
+
+  .hero-content-anwaelte-mobile {
+    width: 100%;
+    height: 78em;
+    min-height: 25.625vh;
+    margin-bottom: 6.1em;
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+  }
+
+  .hero-content-anwaelte-mobile._1 {
+    -webkit-filter: none;
+    filter: none;
+  }
+
+  .hero-content-anwaelte-mobile._2 {
+    background-image: url('../images/Andreas-Engelmann.png');
+    -webkit-filter: none;
+    filter: none;
+  }
+
+  .aktuelles-wrap {
+    width: 100%;
+  }
+
+  .heading-aktuelles {
+    font-size: 4.7em;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+  }
+
+  .heading-div {
+    text-align: left;
+  }
+
+  .arrow-icon {
+    width: 4em;
+    height: 4em;
+    margin-left: 2.55em;
+  }
+
+  .paragraph-light-aktuelles {
+    font-size: 3.9em;
+  }
+
+  .text-field-fe {
+    width: 22.5em;
+    margin-bottom: 1.6em;
+    font-size: 3.5em;
+  }
+
+  .form {
+    margin-top: 22.7875em;
+    padding-top: 0em;
+    padding-left: 5.6875em;
+  }
+
+  .recaptcha {
+    margin-top: 3.3em;
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+
+  .submit-button {
+    margin-top: 1.6em;
+    padding: 0.625em 0px;
+    background-color: #ed2e38;
+    font-size: 3em;
+  }
+
+  .heading-3 {
+    font-size: 3.9em;
+  }
+
+  .line-1 {
+    width: 48px;
+    height: 2px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #ed2e38;
+  }
+
+  .line-2 {
+    width: 38.4px;
+    height: 2px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #ed2e38;
+  }
+
+  .line-3 {
+    width: 48px;
+    height: 2px;
+    margin-top: 8px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #ed2e38;
+  }
+
+  .burger-wrapper {
+    padding-top: 0px;
+  }
+
+  .contact-mobile {
+    display: block;
+    padding-top: 4.225em;
+    line-height: 1.55;
+  }
+
+  .paragraph-3 {
+    margin-bottom: 0px;
+    background-color: transparent;
+    font-family: 'Work Sans', sans-serif;
+    color: #ed2e38;
+    font-size: 3.85em;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.004em;
+  }
+
+  .text-span-8 {
+    font-family: urbane, sans-serif;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .text-span-9 {
+    font-family: urbane, sans-serif;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .text-span-10 {
+    font-family: urbane, sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 0.1em;
+  }
+
+  .link-2 {
+    display: inline-block;
+    color: #ed2e38;
+    text-decoration: none;
+  }
+
+  .link-3 {
+    display: inline-block;
+    color: #ed2e38;
+    text-decoration: none;
+  }
+
+  .container-mobile {
+    display: block;
+  }
+
+  .container-mobile.cc-subscription-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .text-block-wrapper {
+    margin-bottom: 5.725em;
+  }
+
+  .container-arbeitsrecht-1 {
+    display: block;
+  }
+
+  .container-arbeitsrecht-1.cc-subscription-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .container-arbeitsrecht-2 {
+    display: block;
+  }
+
+  .container-arbeitsrecht-2.cc-subscription-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .container-anwaelte {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .container-anwaelte.cc-subscription-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .more-button {
+    display: block;
+    margin-top: -0.125em;
+    margin-bottom: 0px;
+    font-family: urbane, sans-serif;
+    color: #ed2e38;
+    font-size: 3.2em;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .container-kontakt {
+    display: block;
+  }
+
+  .container-kontakt.cc-subscription-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .paragraph-light-kontakt-mobile {
+    top: 0em;
+    overflow: hidden;
+    font-size: 3.9em;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 0.003em;
+  }
+
+  .arbeitsrecht-head-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .arrow-icon-straight {
+    left: 1.625em;
+    bottom: -1.65em;
+    display: block;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .section-mobile.arbeitsrecht {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+  }
+
+  .section-mobile.arbeitsrecht-2 {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+    opacity: 1;
+  }
+
+  .section-mobile.home-1 {
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+  }
+
+  .section-mobile.kontakt-1 {
+    overflow: hidden;
+    margin-top: 8.8em;
+    margin-right: 5.5em;
+    margin-left: 5.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .section-mobile.kontakt-2 {
+    margin-top: 5.9em;
+    margin-right: 5.5em;
+    margin-left: 5.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .section-mobile.anwaelte {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 2.2875em;
+    padding-left: 2.2875em;
+  }
+
+  .section-mobile.anwalt-2 {
+    display: block;
+    margin-top: 6.4em;
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .section-mobile.aktuelles {
+    margin-top: 9em;
+    margin-right: 5.8em;
+    margin-left: 5.8em;
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .paragraph-light-anwaelte-desktop-1 {
+    font-size: 3.4em;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .paragraph-light-anwaelte-desktop-2 {
+    font-size: 3.4em;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .paragraph-light-anwaelte-desktop-3 {
+    font-size: 3.4em;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .paragraph-light-anwaelte-desktop-4 {
+    font-size: 3.4em;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .navigation-items-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    height: 100vh;
+    margin-top: 0em;
+    padding-top: 0px;
+    padding-right: 5.8em;
+    padding-left: 5.8em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #ed2e38;
+  }
+
+  .navigation-items-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-top: 8em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: transparent;
+  }
+
+  .horizontal-line {
+    width: 100%;
+    height: 2px;
+    margin-top: 0px;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding-right: 0em;
+  }
+
+  .logo-image-invert {
+    position: absolute;
+    width: auto;
+    opacity: 0;
+  }
+}
+
+#w-node-3c4d68dcbf9d-4eec9908 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+}
+
+#w-node-3c4d68dcbf9f-4eec9908 {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+}
+
+#w-node-3c4d68dcbf9d-55ec9915 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-3c4d68dcbf9d-54ec9916 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-3c4d68dcbf9f-4eec9908 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+  }
+}
+
